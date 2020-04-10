@@ -14,8 +14,23 @@
 				title: 'Hello'
 			}
 		},
+		// 页面生命周期
 		onLoad() {
-
+			// 执行第一次
+          console.log('onload首页 刚刚加载')
+		},
+		onShow() {
+          console.log('onshow首页 显示')
+		},
+		onReady() {
+			// 执行第一次
+          console.log('onReady首页 初次渲染')
+		},
+		onHide() {
+          console.log('onHide首页 隐藏')
+		},
+		onUnload() {
+			console.log('onUnload首页 被卸载')
 		},
 		methods: {
 

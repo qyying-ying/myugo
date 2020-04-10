@@ -1,13 +1,14 @@
 <script>
 	export default {
+		// 应用什么周期
 		onLaunch: function() {
-			console.log('App Launch')
+			console.log('App Launch 项目启动')
 		},
 		onShow: function() {
-			console.log('App Show')
+			console.log('App Show 项目显示')
 		},
 		onHide: function() {
-			console.log('App Hide')
+			console.log('App Hide 项目隐藏')
 		}
 	}
 </script>
