@@ -1,57 +1,34 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view>
-			<text class="title">{{title}}</text>
+<view class="index">
+		<!-- search搜索 -->
+	<view class="search">
+		<!-- 搜索框 -->
+		<view class="search-input">
+            <input type="text" placeholder="请搜索您要的商品">
 		</view>
+        <!-- 搜索结果内容 -->
+	    <view class="search-content"></view>
 	</view>
+	<!-- 轮播图 -->
+</view>
 </template>
 
 <script>
 	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		// 页面生命周期
-		onLoad() {
-			// 执行第一次
-          console.log('onload首页 刚刚加载')
-		},
-		onShow() {
-          console.log('onshow首页 显示')
-		},
-		onReady() {
-			// 执行第一次
-          console.log('onReady首页 初次渲染')
-		},
-		onHide() {
-          console.log('onHide首页 隐藏')
-		},
-		onUnload() {
-			console.log('onUnload首页 被卸载')
-		},
-		methods: {
-
-		}
+		
 	}
 </script>
 
 <style>
-	.content {
-		text-align: center;
-		height: 400upx;
-	}
-
-	.logo {
-		height: 200upx;
-		width: 200upx;
-		margin-top: 200upx;
-	}
-
-	.title {
-		font-size: 36upx;
-		color: #8f8f94;
-	}
+.search .search-input {
+	padding: 18rpx;
+	background-color: #ea4451;
+}
+.search input {
+	background-color: #fff;
+	height: 60rpx;
+	padding-left: 15rpx;
+	font-size: 26rpx;
+	color: #eee;
+}
 </style>
