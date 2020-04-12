@@ -19,16 +19,21 @@
 	}
 </script>
 
-<style>
-.search .search-input {
-	padding: 18rpx;
-	background-color: #ea4451;
-}
-.search input {
+<style lang="less" scoped>
+.search {
+  .search-input {
+   padding: 18rpx;
+   background-color: #ea4451;
+  }
+  input {
 	background-color: #fff;
 	height: 60rpx;
 	padding-left: 15rpx;
 	font-size: 26rpx;
 	color: #eee;
+   }
+
 }
+
+
 </style>
